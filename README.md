@@ -9,12 +9,12 @@
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+- ✨ [Introduction](#introduction)
+- ⚙️ [Tech Stack](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Quick Start](#quick-start)
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">✨ Introduction</a>
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
 
@@ -27,7 +27,7 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 - Framer Motion
 - Tailwind CSS
 
-## <a name="features">🔋 Features</a>
+## <a name="features">📝 Features</a>
 
 👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
 
@@ -45,9 +45,12 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 
 and many more, including code architecture and reusability 
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
+
+**Dashboards**
+- [Sentry](https://sentry.io/welcome/) 
 
 **Prerequisites**
 
