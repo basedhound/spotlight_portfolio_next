@@ -4,7 +4,7 @@ import { IoCopyOutline } from "react-icons/io5";
 // Also install this npm i --save-dev @types/react-lottie
 //
 import { BackgroundGradientAnimation } from "./GradientBg";
-// import GridGlobe from "./GridGlobe";
+import GridGlobe from "./GridGlobe";
 import MagicButton from "../MagicButton";
 import { cn } from "@/lib/utils";
 import animationData from "@/data/confetti.json";
@@ -135,7 +135,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {/* {id === 2 && <GridGlobe />} */}
+           {id === 2 && <GridGlobe />} 
 
           {/* Tech stack list div */}
           {id === 3 && (

@@ -13,7 +13,6 @@ export default function Home() {
       <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <h1>Hello</h1>
       </div>
     </main>
   );
