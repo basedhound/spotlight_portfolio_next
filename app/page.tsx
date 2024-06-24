@@ -1,7 +1,9 @@
+"use client";
+//
 import { navItems } from "@/data";
-
-import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Hero from "@/components/Hero";
+import Grid from "@/components/Grid";
 
 //!
 export default function Home() {
@@ -10,6 +12,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
       <FloatingNav navItems={navItems} />
         <Hero />
+        <Grid />
         <h1>Hello</h1>
       </div>
     </main>
