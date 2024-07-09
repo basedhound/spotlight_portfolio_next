@@ -1,58 +1,57 @@
 <div align="center">
-  <br />    
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">    
-  <br />
-
-  <h3 align="center">A Modern Next.js Portfolio</h3>
-
+    <a href="https://spotlight-fv.netlify.app" target="_blank">
+      <img src="public/design/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">Spotlight Portfolio</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+##  <br /> 📋 <a name="table">Table of Contents</a>
 
 - ✨ [Introduction](#introduction)
 - ⚙️ [Tech Stack](#tech-stack)
 - 📝 [Features](#features)
 - 🚀 [Quick Start](#quick-start)
 
-## <a name="introduction">✨ Introduction</a>
+##  <br /> <a name="introduction">✨ Introduction</a>
 
-Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+**[EN]** Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+**[FR]** Conçu avec Next.js pour l'interface utilisateur, Three.js pour le rendu 3D, Framer Motion pour des animations élégantes, et stylisé avec TailwindCSS, ce portfolio illustre les compétences du développeur de manière moderne et marquante.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Three.js
-- Framer Motion
-- Tailwind CSS
+- **Next.js** is a React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, enhancing performance and SEO for web applications. It offers features like automatic code splitting, API routes for server-side logic, and a plugin system for extensibility.
 
-## <a name="features">📝 Features</a>
+- **Three.js** is a JavaScript library that enables the creation and display of 3D computer graphics in web browsers using WebGL. It provides extensive capabilities for rendering 3D scenes, including support for geometries, materials, lighting, and animations.
 
-👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
+- **Framer Motion** is a React animation library designed for creating smooth, interactive animations and transitions. It simplifies complex animations with a straightforward API, supports gesture-based interactions, and offers physics-based animations for realistic motion effects.
 
-👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
+- **Tailwind CSS** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
 
-👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
-👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
+## <br/> <a name="features">📝 Features</a>
 
-👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+👉 Hero: Captivating introduction featuring a spotlight effect and dynamic background.
 
-👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
+👉 Bento Grid: Modern layout presenting personal information using cutting-edge CSS design techniques.
 
-and many more, including code architecture and reusability 
+👉 3D Elements: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-## <a name="quick-start">🚀 Quick Start</a>
+👉 Testimonials: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
+
+👉 Work Experience: Prominent display of professional background for emphasis and credibility.
+
+👉 Canvas Effect: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+
+👉 Responsiveness: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
+
+
+## <br /> <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
-**Dashboards**
-- [Sentry](https://sentry.io/welcome/) 
-
-**Prerequisites**
+<br/>**Prerequisites**
 
 Make sure you have the following installed on your machine:
 
@@ -60,25 +59,43 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+<br/>**Cloning the Repository**
 
 ```bash
-git clone {this repository url}
+git clone {git remote URL}
 ```
 
-**Installation**
+<br/>**Installation**
 
-Install the project dependencies using npm:
+Let's install the project dependencies, from your terminal, run:
 
 ```bash
 npm install
+# or
+yarn install
 ```
 
-**Running the Project**
+<br/>**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+SENTRY_AUTH_TOKEN=
+```
+
+Replace the placeholder values with your actual respective account credentials:
+
+- [Sentry](https://sentry.io/features/dashboards)
+
+
+<br/>**Running the Project**
+
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
+Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
